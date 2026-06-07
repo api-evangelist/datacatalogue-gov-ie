@@ -1,0 +1,57 @@
+aid: datacatalogue-gov-ie
+name: Ireland Open Data Catalogue
+description: >-
+  Ireland Open Data Catalogue is a national government open-data portal for Ireland running CKAN.
+  It exposes the CKAN catalog API over approximately 1,467 datasets.
+kind: government
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/datacatalogue-gov-ie/refs/heads/main/apis.yml
+tags:
+  - Open Data
+  - CKAN
+  - Data Catalog
+  - DCAT
+  - Government Data
+  - National Government
+  - Ireland
+created: '2026-06-07'
+modified: '2026-06-07'
+specificationVersion: '0.19'
+apis:
+  - aid: datacatalogue-gov-ie:catalog
+    name: Ireland Open Data Catalogue CKAN Action API
+    description: >-
+      CKAN API for Ireland Open Data Catalogue, ~1,467 datasets.
+    humanURL: https://datacatalogue.gov.ie
+    baseURL: https://datacatalogue.gov.ie/api/3/action
+    tags:
+      - CKAN
+      - Open Data
+      - Catalog
+      - REST
+      - JSON
+    properties:
+      - type: Documentation
+        url: https://docs.ckan.org/en/latest/api/
+      - type: Website
+        url: https://datacatalogue.gov.ie
+      - type: x-api-endpoint
+        url: https://datacatalogue.gov.ie/api/3/action/status_show
+      - type: x-ckan-version
+        value: '2.9.14'
+common:
+  - type: Website
+    url: https://datacatalogue.gov.ie
+  - type: Documentation
+    url: https://docs.ckan.org/en/latest/api/
+  - type: Plans
+    url: plans/datacatalogue-gov-ie-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/datacatalogue-gov-ie-rate-limits.yml
+  - type: FinOps
+    url: finops/datacatalogue-gov-ie-finops.yml
+  - type: Review
+    url: review.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
