@@ -40,6 +40,8 @@ apis:
       - type: x-ckan-version
         value: '2.9.14'
 common:
+  - type: DomainSecurity
+    url: security/datacatalogue-gov-ie-domain-security.yml
   - type: Website
     url: https://datacatalogue.gov.ie
   - type: Documentation
@@ -52,6 +54,8 @@ common:
     url: finops/datacatalogue-gov-ie-finops.yml
   - type: Review
     url: review.yml
+  - url: https://datacatalogue.gov.ie/blog
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
